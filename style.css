@@ -424,7 +424,18 @@ iframe {
     }
 }
 
-@media (max-width: 991px) {
+/* Mobile responsiveness for Our Prices section */
+@media (max-width: 767px) {
+    .pricing-categories {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .pricing-category {
+        width: 100%;
+    }
+
+
     #menu-icon {
         display: block;
     }
@@ -453,6 +464,9 @@ iframe {
         right: 0;
     }
 }
+
+
+
 
 
 footer {
